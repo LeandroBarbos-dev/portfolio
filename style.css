@@ -1,0 +1,207 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+
+body{
+
+    background: rgb(18, 20, 29);
+    font-family: Arial, sans-serif;
+    color: #fff;
+
+}
+
+h1, h2 {
+    color: #00ffd5;
+    margin-bottom: 20px;
+}
+
+h1 span, h2 span {
+    color: #00ffd5;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.interface{
+    /*
+    display: flex;
+    height: 3.5vw;
+    width: 100vw;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    color: #00ffd5;
+    */
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.logo img{
+    height: 3vw;
+}
+
+.menu-desktop ul{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+     list-style-type: none;
+     
+}
+
+.menu-desktop li:hover{
+ transform: scale(1.1);
+}
+
+section {
+    padding: 60px 4%;
+}
+
+.chamada-inicial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+.texto-chamada {
+    flex: 1;
+    min-width: 280px;
+}
+
+.texto-chamada h1 {
+    font-size: 2.5rem;
+     
+}
+
+.branco {
+    color: #ffffff; /* ou a cor que estiver usando no fundo escuro */
+    color: #00ffff;
+    
+}
+
+.ciano {
+    color: #00ffff; /* ou um tom de ciano mais suave, como #00e0ff */
+     color: #ffffff;
+}
+
+.btn-projetos button {
+    padding: 10px 20px;
+    background-color: #00ffd5;
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-projetos button:hover {
+    background-color: #00ccb0;
+}
+
+.texto-chamada p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+     color: #d4d4d4;
+}
+
+.imagem-chamada {
+    flex: 1;
+    min-width: 280px;
+    text-align: center;
+}
+
+.imagem-chamada img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.cards {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.cards li {
+    background-color: #1f1f2e;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.btn-contato button {
+    padding: 10px 20px;
+    background-color: #00ffd5;
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-contato button:hover {
+    background-color: #00ccb0;
+}
+
+a {
+    color: #00ffd5;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+ion-icon{
+    font-size: 35px;
+    padding: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 4%;
+    background-color: #11121a;
+    font-size: 14px;
+}
+
+
+
+.img-port{
+    width: 480px;
+    height: 360px;
+    background-color: #00ccb0;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    border-radius: 10px;
+}
+
+.img-port:hover{
+background-position: 100% 100%;
+}
